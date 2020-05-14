@@ -1,0 +1,18 @@
+//Object là một tập hợp các thuộc tính. Ex
+var obj = {
+  cuPhap: 'Ngoặc tròn',
+  noiDungTrongObj: 'là một đối tượng bao gồm các Property'
+};
+//lấy dữ liệu từ Object
+console.log(obj); //lấy toàn bộ dữ liệu
+console.log(obj.noiDungTrongObj); // Chỉ lấy thuộc tính 'noiDungTrongObj'
+
+//Array là một tập hợp bao gồm các Object. Ex
+var arr = [
+  {name: 'Obj1', age: 18},
+  {name: 'Obj2', age: 20}
+];
+//Lấy dữ liệu mảng
+console.log(arr); // Lấy nguyên mảng
+console.log(arr[0]); // Lấy obj đầu tiên trong mảng
+console.logo(arr[0].age); // Lấy thuộc tính age trong đối tượng đầu tiên trong mảng
